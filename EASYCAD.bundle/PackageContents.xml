@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage
+	SchemaVersion="1.0" ProductType="Application" Name="EASYCAD" AppVersion="1.0.0.0" Description="Tools For Modeling and Coordination" Author="Mohamed Fawzy"
+	Icon="./CONTENTS/ico_32.bmp"
+	HelpFile="./CONTENTS/Main.htm"
+	ProductCode="03DFX571-0774-6FC8-AC24-A56D40516FB1">
+	<CompanyDetails
+		  Name = "Mohamed Fawzy"
+		  Email = "Eng.MohFawzy99@gmail.com"/>
+	<Components>
+		<RuntimeRequirements
+				OS="Win32|Win64"
+				SeriesMin="R24.0"
+				SeriesMax="R24.3" />
+		<ComponentEntry
+				AppName=" EASYCAD"
+				AppDescription="EASYCADX"
+				ModuleName="./CONTENTS/48/EASYCAD.dll"
+				LoadOnAutoCADStartup  ="True"
+				LoadOnRequest="True">
+		</ComponentEntry>
+	</Components>
+
+	<Components>
+		<RuntimeRequirements
+			OS="Win32|Win64"
+			SeriesMin="R25.0" />
+		<ComponentEntry
+			AppName=" EASYCADCore"
+			AppDescription="EASYCADCoreX"
+			ModuleName="./CONTENTS/NET8/EASYCADCore.dll"
+			LoadOnAutoCADStartup  ="True"
+			LoadOnRequest="True">
+		</ComponentEntry>
+	</Components>
+
+
+</ApplicationPackage>
