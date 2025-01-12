@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ApplicationPackage
-	SchemaVersion="1.0" ProductType="Application" Name="EASYCAD" AppVersion="1.0.0.0" Description="Tools For Modeling and Coordination" Author="Mohamed Fawzy"
+	SchemaVersion="1.0" ProductType="Application" Name="EASYCAD" AppVersion="3.0.1.0" Description="Tools For Modeling and Coordination" Author="Mohamed Fawzy"
 	Icon="./CONTENTS/ico_32.bmp"
 	HelpFile="./CONTENTS/Main.htm"
 	ProductCode="03DFX571-0774-6FC8-AC24-A56D40516FB1">
@@ -10,7 +10,6 @@
 	<Components>
 		<RuntimeRequirements
 				OS="Win32|Win64"
-				SeriesMin="R24.0"
 				SeriesMax="R24.3" />
 		<ComponentEntry
 				AppName=" EASYCAD"
